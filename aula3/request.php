@@ -12,6 +12,7 @@ class Request {
 		$this->method = $method;
 		$this->protocol = $protocol;
 		$this->ip = $ip;
+		$this->remote_ip = $remote_ip;
 		$this->resource = $resource;
 		$this->parameters = $parameters;
 	}
