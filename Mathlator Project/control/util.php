@@ -23,5 +23,4 @@ class Util {
 
         return $quotes[$randomNum];
     }	
-
 }

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include_once('view/template.php'); ?>
 <?php include_once('control/util.php'); ?>
 <?php $template = new Template(); ?>
@@ -29,4 +30,3 @@
     </div>
 </body>
 </html>
-
